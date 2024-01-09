@@ -1,31 +1,37 @@
-.header{
+.header {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 60px;
     margin-top: 0px;
-    justify-content: space-between; /*각 요소 사이에 공간을 균일하게 분배 */
+    justify-content: space-between;
+    /*각 요소 사이에 공간을 균일하게 분배 */
     align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(16, 1, 1, 0.603);
 }
 
-.logo{
-   width: 15%;
-   font-family: 'Young Serif', serif;
-   font-weight: bold;
-   font-size: 20px;
-   text-align: center;
+.logo {
+    width: 15%;
+    font-family: 'Young Serif', serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
 
-.navbar-styles{
+.navbar-styles {
     width: 70%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center; /*가로 중앙 정렬 */
-    align-items: center; /*세로 중앙 정렬 */
+    justify-content: center;
+    /*가로 중앙 정렬 */
+    align-items: center;
+    /*세로 중앙 정렬 */
 }
 
-.nav-items{
+.nav-items {
     width: 100%;
     list-style: none;
     display: flex;
@@ -44,12 +50,14 @@
 }
 
 
-.user-options{
+.user-options {
     width: 15%;
     height: 100%;
     display: flex;
-    justify-content: center; /*가로 중앙 정렬 */
-    align-items: center; /*세로 중앙 정렬 */
+    justify-content: center;
+    /*가로 중앙 정렬 */
+    align-items: center;
+    /*세로 중앙 정렬 */
     justify-content: space-evenly;
 }
 
@@ -67,12 +75,12 @@
 }
 
 .main-image {
-    max-width: 100%; 
-    max-height: 100%; 
-    display: block; 
-    margin: 0px auto; 
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0px auto;
     filter: grayscale(30%);
-    filter: brightness(50%); 
+    filter: brightness(50%);
 }
 
 .text-contatiner {
@@ -82,23 +90,23 @@
     color: white;
 }
 
-.main-text{
+.main-text {
     margin-top: 0;
     font-size: 25px;
     font-weight: bolder;
 }
 
-.sub-text{
+.sub-text {
     margin-top: 10%;
     font-weight: lighter;
     font-size: 20px;
 }
 
-button{
+button {
     position: absolute;
     width: 300px;
     height: 40px;
-    border-radius:10px;
+    border-radius: 10px;
     font-size: 20px;
     color: black;
     background-color: white;

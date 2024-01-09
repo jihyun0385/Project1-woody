@@ -1,0 +1,53 @@
+.cafe-intro {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.intro-pic {
+    width: 40%;
+    max-height: 50%;
+}
+
+.intro-content {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 12px;
+}
+
+.intro-heading {
+    font-weight: bolder;
+    font-size: 25px;
+    height: 8%;
+
+}
+
+.intro-paragraph {
+    font-size: 15px;
+    height: 10%;
+    margin-top: 10px;
+}
+
+.interior-photo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50%;
+    margin-top: 10%;
+}
+
+.cozy-atmosphere {
+    width: 50%;
+    max-height: 30%;
+}
+
+.seating-area {
+    width: 30%;
+    max-height: 30%;
+    margin-left: 30px;
+}

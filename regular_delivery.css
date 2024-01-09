@@ -1,0 +1,52 @@
+.tabmenu {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.service-tab {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 20%;
+}
+
+.inform-tab {
+    width: 50%;
+    list-style: none;
+    font-size: 18px;
+    justify-content: center;
+    position: relative;
+}
+
+
+.inform-tab a {
+    text-decoration: none;
+}
+
+.inform-tab::after {
+    content: "";
+    width: 1px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: rgba(16, 1, 1, 0.603);
+}
+
+.inform-tab:last-child::after {
+    display: none;
+}
+
+.deliver_event {
+    margin-top: 10px;
+    width: 80%;
+    max-height: 100%;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+}

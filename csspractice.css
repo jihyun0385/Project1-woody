@@ -1,0 +1,30 @@
+.div{
+    width: 400px;
+    display: block;
+    background-color: chartreuse;
+    border:black solid 1px;
+}
+
+.span{
+    display: inline;
+    width: 50px;
+    background-color: aqua;
+}
+
+.inlineblock{
+    display: inline-block;
+    width: 50%;
+    height: 20px;
+    margin: 10px;
+    background-color: beige;
+}
+
+.content-box{
+    background-color: coral;
+    box-sizing: content-box;
+}
+
+.border-box{
+    background-color: darksalmon;
+    box-sizing: border-box;
+}

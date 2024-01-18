@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexlayout</title>
+    <style>
+
+        header, nav, aside, main, footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            margin: 5px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div style="width: 1280px; height:800px; margin: 10px;">
+
+        <div style=" display: flex; width: 100%; height: 30%; flex-direction: column;">
+            <header style="background-color: rgb(238, 105, 105);  height: 70%;"> header</header>
+            <nav style="background-color: blueviolet; height: 30%;">navi</nav>
+        </div>
+
+        <div style=" display: flex; width: 100%; height: 50%; flex-direction: row; text-align: center;">
+            <aside style="width: 30%; background-color: greenyellow;text-align: center;">aside</aside>
+            <main style="width: 70%; margin-left: 3%; background-color: rgb(163, 163, 218);text-align: center;">main
+            </main>
+        </div>
+
+        <footer style="height: 20%; background-color: rgb(88, 247, 88);text-align: center;">
+            footer</footer>
+    </div>
+
+</body>
+
+</html>

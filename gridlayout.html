@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 5px;
+        }
+
+        .wrapper {
+            width: 700px;
+            height: 800px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 10% 5% 50% 15%;
+            grid-template-areas:
+                "box1 box1 box1"
+                "box2 box2 box2"
+                "box3 box4 box4"
+                "box5 box5 box5";
+        }
+
+        .white-textcenter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .head {
+            background-color: #3689ff;
+            grid-area: box1;
+        }
+
+        .navi {
+            background-color: #00cf12;
+            grid-area: box2;
+        }
+
+        .asside {
+            background-color: #ff9019;
+            grid-area: box3;
+        }
+
+        .main {
+            background-color: #ffd000;
+            grid-area: box4;
+        }
+
+        .footer {
+            background-color: rgb(173, 236, 148);
+            grid-area: box5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="head white-textcenter ">head</div>
+        <div class="navi white-textcenter">navi</div>
+        <div class="asside white-textcenter">aside</div>
+        <div class="main white-textcenter">main</div>
+        <div class="footer white-textcenter">footer</div>
+    </div>
+</body>
+
+</html>
